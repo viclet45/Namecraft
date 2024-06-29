@@ -44,7 +44,7 @@ const Welcome = () => {
               <img src="./pics/craft.png" className="card-img-top" alt="Craft" />
             </div>
             <div className="card ml-3">
-              <img src="./pics/craft.png" className="card-img-top" alt="Craft" />
+              <img src="./pics/background5.jpg" className="card-img-top" alt="Craft" />
             </div>
           </div>
         </div>

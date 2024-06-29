@@ -19,7 +19,7 @@ function Home() {
 
   return (
     <div>
-      <h1></h1>
+      
       <br/>
       <TemplateSelector template={template} setTemplate={setTemplate} />
       <NameInput name={name} setName={setName} />
