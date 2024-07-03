@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/viclet45/Namecraft.git/static/css/main.22af6a64.css",
+    "main.js": "/viclet45/Namecraft.git/static/js/main.67a0cf11.js",
+    "static/js/453.57b12211.chunk.js": "/viclet45/Namecraft.git/static/js/453.57b12211.chunk.js",
+    "index.html": "/viclet45/Namecraft.git/index.html",
+    "main.22af6a64.css.map": "/viclet45/Namecraft.git/static/css/main.22af6a64.css.map",
+    "main.67a0cf11.js.map": "/viclet45/Namecraft.git/static/js/main.67a0cf11.js.map",
+    "453.57b12211.chunk.js.map": "/viclet45/Namecraft.git/static/js/453.57b12211.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22af6a64.css",
+    "static/js/main.67a0cf11.js"
+  ]
+}
