@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
+
+
 const Welcome = () => {
   return (
     <div className="background-image">
@@ -37,7 +39,8 @@ const Welcome = () => {
           <div className="col-md-6 d-flex flex-column justify-content-start align-items-start">
             <h1>Why Use Namecraft</h1>
             <p>Make stunning designs with PicMonkey's name tag maker. You'll be amazed at what you can create—no design skills required.</p>
-            <Link to="/home" className="btn btn-primary mt-2">Click To Generate</Link>
+         
+            <a href='./Pages/Home.js 'className="btn btn-primary mt-2">Click To Generate</a>
           </div>
           <div className="col-md-6 d-flex justify-content-between mb-footer-space">
             <div className="card mr-3">

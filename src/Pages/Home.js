@@ -83,8 +83,8 @@ const Home = () => {
           {isLoading && <p className="mt-3">Loading...</p>}
 
           {nameTag && (
-            <div className="card mt-3" ref={cardRef}>
-              <div className="card-body card-center" style={{ backgroundColor: selectedColor }}>
+            <div className=" card-container mt-3" ref={cardRef}>
+              <div className="cardbody card-center" style={{ backgroundColor: selectedColor }}>
                 <h2 className="card-title">{nameTag}</h2>
                 <p className="card-text text-center">{additionalInfo}</p>
               </div>

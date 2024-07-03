@@ -67,7 +67,11 @@ footer {
   margin-bottom: 100px; /* Adjust this value as needed */
 }
 
-.card-body {
+.card-container{
+  width: 300px;
+  height: 200px;
+}
+.cardbody {
   display: flex;
   flex-direction: column;
   width: 300px;
