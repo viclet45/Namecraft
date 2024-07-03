@@ -73,7 +73,7 @@ const Home = () => {
           </div>
 
           <button
-            className="btn btn-sucess mr-2 mt-2"
+            className="btn btn-danger mr-2 mt-2"
             onClick={handleGenerateTag}
             disabled={isLoading}
           >
