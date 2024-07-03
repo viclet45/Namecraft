@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +16,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  overflow-x: auto;
 }
 
 code {
@@ -52,18 +52,94 @@ footer {
   background-color: rgb(184, 211, 241);
   color: #000000;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   position: fixed;
   width: 100%;
   bottom: 0;
 }
 
-
-.link{
+.link {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 .mb-footer-space {
   margin-bottom: 100px; /* Adjust this value as needed */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #0a0a0a; /* Default border style */
+  padding: 10px;
+}
+
+.card-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px; /* Adjust as needed */
+  font-weight: bold; /* Enhance readability */
+  text-align: center;
+}
+
+.card-text {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px; /* Adjust as needed */
+  text-align: center; /* Center text horizontally */
+  margin-top: 10px; /* Optional: Adjust spacing */
+}
+
+.color-selector {
+  height: 15px; /* Adjust height as needed */
+  width: 20px; /* Adjust width as needed */
+  padding: 0;
+  border: 1px ; /* Added border style */
+  border-radius: 100px;
+  margin-top: 5px; /* Added spacing */
+  margin-left: 5px;
+}
+
+.col-lg-6 {
+  flex: 1; /* Grow to fill remaining space */
+  padding-bottom: 150px;
+}
+
+.contact-form {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.contact-form label {
+  font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form textarea {
+  resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
 }
