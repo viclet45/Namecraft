@@ -16,11 +16,13 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  overflow-x: auto;
+  overflow-x: hidden;
+  box-sizing: inherit;
+  padding-bottom: 6.74rem;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .carousel-image {
@@ -40,7 +42,6 @@ code {
   border: 1px solid black;
   border-radius: 10px;
   padding: 10px;
-  margin-bottom: 20px;
 }
 
 .card-img-top {
@@ -64,7 +65,7 @@ footer {
 }
 
 .mb-footer-space {
-  margin-bottom: 100px; /* Adjust this value as needed */
+  margin-bottom: 100px; 
 }
 
 .card-container{
@@ -83,15 +84,12 @@ footer {
 }
 
 .card-title {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 32px; /* Adjust as needed */
   font-weight: bold; /* Enhance readability */
   text-align: center;
 }
 
 .card-text {
-  font-family: Roboto, Arial, sans-serif;
-  font-size: 16px; /* Adjust as needed */
+
   text-align: center; /* Center text horizontally */
   margin-top: 10px; /* Optional: Adjust spacing */
 }
@@ -146,4 +144,50 @@ footer {
 
 .contact-form button:hover {
   background-color: #0056b3;
+}
+
+.card-template-1 {
+  background-image: url('./Components/card1.jpg'); 
+  background-size: cover;
+}
+
+.card-template-2 {
+  background-image: url('./Components/background1.jpg');
+  background-size: cover;
+}
+
+.card-template-3 {
+  background-image: url('./Components/card2.jpg');
+  background-size: cover;
+}
+
+.card-template-4 {
+  background-image: url('./Components/card3.jpg');
+  background-size: cover;
+}
+
+.card-template-5 {
+  background-image: url('./Components/card4.jpg');
+  background-size: cover;
+}
+
+.card-template-6 {
+  background-image: url('./Components/card5.jpg');
+  background-size: cover;
+}
+
+.card-template img {
+  width: 100%;
+  height: auto;
+}
+
+.card-template-column{
+  border-right: 2px solid #007bff; /* Example border color */
+ 
+}
+
+
+.container{
+  font-family: 'Poppins', sans-serif ;
+  font-weight: 700;  
 }

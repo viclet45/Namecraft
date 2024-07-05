@@ -38,9 +38,9 @@ const Welcome = () => {
         <div className="row mt-4">
           <div className="col-md-6 d-flex flex-column justify-content-start align-items-start">
             <h1>Why Use Namecraft</h1>
-            <p>Make stunning designs with PicMonkey's name tag maker. You'll be amazed at what you can create—no design skills required.</p>
+            <p>Make stunning designs with Namecraft's name tag maker. You'll be amazed at what you can create—no design skills required.</p>
          
-            <a href='./Pages/Home.js 'className="btn btn-primary mt-2">Click To Generate</a>
+            <Link to="/" className="btn btn-primary mt-2">Click To Generate</Link>
           </div>
           <div className="col-md-6 d-flex justify-content-between mb-footer-space">
             <div className="card mr-3">
