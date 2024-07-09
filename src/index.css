@@ -12,7 +12,7 @@ body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: floralwhite;
+   background-image: url(./Components/background2.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -69,8 +69,8 @@ footer {
 }
 
 .card-container{
-  width: 300px;
-  height: 200px;
+  
+  margin-top: 10px;
 }
 .cardbody {
   display: flex;
@@ -146,10 +146,7 @@ footer {
   background-color: #0056b3;
 }
 
-.card-template-1 {
-  background-image: url('./Components/card1.jpg'); 
-  background-size: cover;
-}
+
 
 .card-template-2 {
   background-image: url('./Components/background1.jpg');
@@ -157,7 +154,7 @@ footer {
 }
 
 .card-template-3 {
-  background-image: url('./Components/card2.jpg');
+  background-image: url('./Components/card18.jpg');
   background-size: cover;
 }
 
@@ -172,9 +169,56 @@ footer {
 }
 
 .card-template-6 {
-  background-image: url('./Components/card5.jpg');
+  background-image: url('./Components/card16.jpg');
   background-size: cover;
 }
+
+.card-template-7{
+  background-image: url('./Components/card\ 6.jpg');
+  background-size: contain;
+}
+
+.card-template-8{
+  background-image: url('./Components/card1.jpg'); 
+  background-size: cover;
+}
+
+.card-template-9{
+  background-image: url('./Components/card15.jpg');
+  background-size: cover;
+}
+
+.card-template-10{
+  background-image: url('./Components/card17.jpg');
+  background-size: 100%;
+}
+
+.card-template-11{
+  background-image: url('./Components/card10.jpg');
+  background-size: cover;
+}
+
+.card-template-12{
+  background-image: url('./Components/card11.jpg');
+  background-size: cover;
+}
+
+.card-template-13{
+  background-image: url('./Components/card12.jpg');
+  background-size: cover;
+}
+
+.card-template-14{
+  background-image: url('./Components/card13.jpg');
+  background-size: cover;
+}
+
+.card-template-15{
+  background-image: url('./Components/card14.jpg');
+  background-size: cover;
+}
+
+
 
 .card-template img {
   width: 100%;
