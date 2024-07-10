@@ -12,10 +12,7 @@ body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: floralwhite;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: rgb(26, 148, 189);
   overflow-x: hidden;
   box-sizing: inherit;
   padding-bottom: 6.74rem;
@@ -79,33 +76,34 @@ footer {
   height: 200px;
   align-items: center;
   justify-content: center;
-  border: 1px solid #0a0a0a; /* Default border style */
+  border: 1px solid #0a0a0a; 
   padding: 10px;
 }
 
 .card-title {
-  font-weight: bold; /* Enhance readability */
+  font-weight: 700; 
   text-align: center;
 }
 
 .card-text {
 
-  text-align: center; /* Center text horizontally */
-  margin-top: 10px; /* Optional: Adjust spacing */
+  text-align: center; 
+  margin-top: 10px; 
 }
 
 .color-selector {
-  height: 15px; /* Adjust height as needed */
-  width: 20px; /* Adjust width as needed */
+  height: 15px; 
+  width: 20px; 
   padding: 0;
-  border: 1px ; /* Added border style */
+  border: 1px ;
   border-radius: 100px;
-  margin-top: 5px; /* Added spacing */
+  margin-top: 5px; 
   margin-left: 5px;
+  cursor: pointer;
 }
 
 .col-lg-6 {
-  flex: 1; /* Grow to fill remaining space */
+  flex: 1; 
   padding-bottom: 150px;
 }
 
@@ -131,7 +129,7 @@ footer {
 }
 
 .contact-form textarea {
-  resize: vertical; /* Allow vertical resizing of textarea */
+  resize: vertical; 
 }
 
 .contact-form button {
@@ -182,12 +180,25 @@ footer {
 }
 
 .card-template-column{
-  border-right: 2px solid #007bff; /* Example border color */
+  border-right: 2px solid #007bff; 
  
 }
 
 
 .container{
   font-family: 'Poppins', sans-serif ;
-  font-weight: 700;  
+  font-weight: 700; 
+}
+
+.Plusbutton,
+.Minusbutton {
+  width: 25px;
+  height: 25px; 
+  background-color: #ccc; 
+  border: 1px solid #999; 
+  cursor: pointer; 
+  display: inline-flex; 
+  justify-content: center; 
+  align-items: center; 
+  margin: 0 5px; 
 }

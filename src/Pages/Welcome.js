@@ -7,7 +7,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 const Welcome = () => {
   return (
-    <div className="background-image">
+    <div className>
       <div className="container mt-4">
         <div className="row">
           <div className="col-12">

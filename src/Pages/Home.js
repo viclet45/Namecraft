@@ -45,7 +45,7 @@ const Home = () => {
   const [selectedColor, setSelectedColor] = useState('#ffffff');
   const [selectedCard, setSelectedCard] = useState(cardTemplates[0]);
   const [selectedFontStyle, setSelectedFontStyle] = useState(fontStyles[0].name);
-  const [fontSize, setFontSize] = useState(16); // Default font size
+  const [fontSize, setFontSize] = useState(32); // Default font size
 
   const cardRef = useRef(null);
 
@@ -162,9 +162,9 @@ const Home = () => {
           <div className="font-Size mt-2">
             <label>Adjust Font Size</label>
             <div className="d-flex align-items-center plus-button" >
-              <button className="btn btn-secondary mr-2" onClick={decreaseFontSize}>-</button>
+              <button className=" Minusbutton btn btn-secondary mr-2" onClick={decreaseFontSize}>-</button>
               <span>{fontSize}px</span>
-              <button className="btn btn-secondary ml-2" onClick={increaseFontSize}>+</button>
+              <button className=" Plusbutton btn btn-secondary ml-2" onClick={increaseFontSize}>+</button>
             </div>
           </div>
 
@@ -180,7 +180,7 @@ const Home = () => {
 
           {nameTag && (
           <div className="card-container mt-3" ref={cardRef}>
-            <div className={`card p-3 ${selectedCard.className}`} style={{ backgroundColor: selectedColor, marginBottom: '10px', fontFamily: selectedFontStyle }}>
+            <div className={`cardbody p-3 ${selectedCard.className}`} style={{ backgroundColor: selectedColor, marginBottom: '10px', fontFamily: selectedFontStyle }}>
               <h2 className="card-title" style={{ fontSize: `${fontSize}px` }}>{nameTag}</h2>
               <p className="card-text" style={{ fontSize: `${fontSize}px` }}>{additionalInfo}</p>
             </div>
@@ -189,7 +189,7 @@ const Home = () => {
 
           {nameTag && !isLoading && (
             <button
-              className="btn btn-success"
+              className="btn btn-success mt-2"
               onClick={handleDownload}
             >
               Download
