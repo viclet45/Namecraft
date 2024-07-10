@@ -12,6 +12,13 @@ const cardTemplates = [
   { id: 7, className: 'card-template-7',  },
   { id: 8, className: 'card-template-8',  },
   { id: 9, className: 'card-template-9',  },
+  { id: 10, className: 'card-template-10',  },
+  { id: 11, className: 'card-template-11',  },
+  { id: 12, className: 'card-template-12',  },
+  { id: 13, className: 'card-template-13',  },
+  { id: 14, className: 'card-template-14',  },
+  { id: 15, className: 'card-template-15',  },
+ 
 ];
 
 const fontStyles = [
@@ -179,8 +186,8 @@ const Home = () => {
           {isLoading && <p className="mt-3">Loading...</p>}
 
           {nameTag && (
-          <div className="card-container mt-3" ref={cardRef}>
-            <div className={`cardbody p-3 ${selectedCard.className}`} style={{ backgroundColor: selectedColor, marginBottom: '10px', fontFamily: selectedFontStyle }}>
+          <div className="card-container" ref={cardRef}>
+            <div className={`card p-3 ${selectedCard.className}`} style={{ backgroundColor: selectedColor, marginBottom: '10px', fontFamily: selectedFontStyle }}>
               <h2 className="card-title" style={{ fontSize: `${fontSize}px` }}>{nameTag}</h2>
               <p className="card-text" style={{ fontSize: `${fontSize}px` }}>{additionalInfo}</p>
             </div>
