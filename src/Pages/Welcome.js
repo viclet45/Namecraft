@@ -20,7 +20,7 @@ const Welcome = () => {
                   <img src="./pics/background5.jpg" className="d-block w-100 carousel-image" alt="Slide 2" />
                 </div>
                 <div className="carousel-item">
-                  <img src="/pics/name_tag.png" className="d-block w-100 carousel-image" alt="Slide 3" />
+                  <img src="/pics/background7.png" className="d-block w-100 carousel-image" alt="Slide 3" />
                 </div>
               </div>
               <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="prev">
@@ -44,7 +44,7 @@ const Welcome = () => {
           </div>
           <div className="col-md-6 d-flex justify-content-between mb-footer-space">
             <div className="card mr-3">
-              <img src="./pics/name_tag.png" className="card-img-top" alt="Craft" />
+              <img src="./pics/background6.png" className="card-img-top" alt="Craft" />
             </div>
             <div className="card ml-3">
               <img src="./pics/background5.jpg" className="card-img-top" alt="Craft" />

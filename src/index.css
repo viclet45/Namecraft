@@ -249,3 +249,8 @@ footer {
   align-items: center; 
   margin: 0 5px; 
 }
+
+.mb-0{
+  font-family: 'Poppins', sans-serif ;
+  font-weight: 500; 
+}
